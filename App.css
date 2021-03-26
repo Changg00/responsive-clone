@@ -1,0 +1,222 @@
+h2 {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  padding-bottom: 5%;
+  letter-spacing: 1.7px;
+}
+
+p {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.7rem;
+  color: rgb(59, 59, 59);
+}
+
+@media (min-width: 768px) {
+  .container-first {
+    padding-top: 22rem;
+    padding-bottom: 12.5rem;
+    text-align: center;
+    color: #ffff;
+    background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    display: block;
+    box-sizing: border-box;
+  }
+}
+
+.greeting {
+  font-size: 2.7rem;
+  font-family: "Yellowtail", cursive;
+  margin-top: -1%;
+  padding-bottom: 2.2%;
+  letter-spacing: 1.5px;
+}
+
+.sub-greeting {
+  font-size: 4.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  padding-bottom: 5%;
+  letter-spacing: 1.7px;
+}
+
+.info-btn {
+  margin-top: 5%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: white;
+  text-decoration: none;
+
+  padding: 1.25rem 2.5rem;
+  background-color: #fed136;
+  border-radius: 8%;
+  border-color: #fed136;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding-top: 1%;
+}
+
+.nav-container {
+  width: 100%;
+  height: 100%;
+  max-width: 1400px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.logo {
+  margin-top: 9%;
+  height: 80px;
+  width: 200px;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-item {
+  padding: 1% 2.5%;
+  width: 120px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+@media screen and (max-width: 1100px) {
+  .logo {
+    height: 80px;
+    width: 200px;
+    left: -500px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .nav-bar {
+    height: 100vh;
+    width: 300px;
+    min-width: 300px;
+    background-color: black;
+    position: fixed;
+    left: -300px;
+    top: 80px;
+    transform: translate(300px, 0);
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+  }
+
+  .show {
+    transform: translate(0, 0);
+  }
+
+  .nav-bar ul {
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    position: absolute;
+    top: 30px;
+  }
+
+  #nav-btn {
+    display: inline-block;
+    background-color: #fed136;
+    position: absolute;
+    right: 15%;
+    top: 20px;
+    height: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+    text-decoration: none;
+    width: 10%;
+    border-radius: 10%;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-second {
+    padding-top: 22rem;
+    padding-bottom: 12.5rem;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    display: block;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+}
+
+.service-items {
+  padding: 5% 10%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.item {
+  margin: 3%;
+}
+
+img {
+  width: 50%;
+  border-radius: 50%;
+  margin-bottom: 10%;
+}
+
+@media (min-width: 768px) {
+  .container-third {
+    padding-top: 22rem;
+    padding-bottom: 12.5rem;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    display: block;
+    box-sizing: border-box;
+  }
+}
